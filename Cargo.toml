@@ -1,0 +1,13 @@
+[package]
+name = "cargo-thiscrate"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cargo-thiscrate"
+path = "cargo-thiscrate.rs"
+
+[features]
+
+[dependencies]
+cargo_toml = "0.13.0"
